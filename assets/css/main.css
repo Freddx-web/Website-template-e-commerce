@@ -12,8 +12,8 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: font-family: 'Roboto';
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: 
   --font-secondary: "Cardo", sans-serif;
 }
 
@@ -74,7 +74,7 @@ h6 {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
-
+  
 }
 
 .section-header h2::after {
@@ -84,6 +84,7 @@ h6 {
   display: inline-block;
   background: #5bd9a9;
   margin: 4px 10px;
+  
 }
 
 .section-header p {
@@ -108,7 +109,7 @@ h6 {
   font-size: 56px;
   font-weight: 500;
   color: #fff;
-
+  
 }
 
 @media (max-width: 768px) {
@@ -586,7 +587,7 @@ h6 {
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
-
+  
 }
 
 .about .content ul {
@@ -879,7 +880,7 @@ h6 {
   font-weight: 700;
   margin-bottom: 20px;
   color: #fff;
-
+  
 }
 
 .gallery-single .portfolio-description p {
@@ -1188,7 +1189,7 @@ h6 {
   font-size: 38px;
   font-weight: 700;
   color: #fff;
-
+  
 }
 
 .hero h2 span {
@@ -1196,6 +1197,7 @@ h6 {
   z-index: 1;
   padding: 0 5px;
   display: inline-block;
+  
 }
 
 .hero h2 span:before {
@@ -1205,6 +1207,7 @@ h6 {
   bottom: 0;
   left: 0;
   right: 0;
+  
 
   z-index: -1;
 }
