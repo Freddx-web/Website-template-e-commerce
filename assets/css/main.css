@@ -13,7 +13,7 @@
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Inter", sans-serif;
+  --font-primary: font-family: 'Roboto';
   --font-secondary: "Cardo", sans-serif;
 }
 
@@ -49,12 +49,13 @@ a:hover {
 }
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+  /*font-family: var(--font-primary);*/
+  
 }
 
 /*--------------------------------------------------------------
@@ -73,7 +74,7 @@ h6 {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
-  font-family: var(--font-primary);
+
 }
 
 .section-header h2::after {
@@ -107,7 +108,7 @@ h6 {
   font-size: 56px;
   font-weight: 500;
   color: #fff;
-  font-family: var(--font-secondary);
+
 }
 
 @media (max-width: 768px) {
@@ -298,12 +299,12 @@ h6 {
   margin-right: 8px;
 }
 
-.header .logo h1 {
+.header .logo {
   font-size: 32px;
   margin: 0;
   font-weight: 400;
   color: #fff;
-  font-family: var(--font-secondary);
+  
 }
 
 .header .logo i {
@@ -585,7 +586,7 @@ h6 {
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
-  color: var(--color-primary);
+
 }
 
 .about .content ul {
@@ -878,7 +879,7 @@ h6 {
   font-weight: 700;
   margin-bottom: 20px;
   color: #fff;
-  font-family: var(--font-secondary);
+
 }
 
 .gallery-single .portfolio-description p {
@@ -1187,7 +1188,7 @@ h6 {
   font-size: 38px;
   font-weight: 700;
   color: #fff;
-  font-family: var(--font-secondary);
+
 }
 
 .hero h2 span {
@@ -1204,7 +1205,7 @@ h6 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--color-primary);
+
   z-index: -1;
 }
 
